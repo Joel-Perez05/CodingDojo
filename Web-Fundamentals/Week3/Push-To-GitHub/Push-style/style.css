@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.container {
+    height: 800px;
+    width: 1000px;
+    background-color: black;
+    margin: auto;
+}
+h1 {
+    font-size: 3.0em;
+    margin: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+th, td {
+    border: 3px solid white;
+}
+table {
+    width: 500px;
+    height: 200px;
+}
+main {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 550px;
+    margin-top: 50px;
+}
+.bmage {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
